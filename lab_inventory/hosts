@@ -16,7 +16,7 @@ rtr4 ansible_network_os=ios
 [cisco:vars]
 ansible_ssh_user=root
 ansible_network_os=ios
-
+ansible_connection=network_cli
 
 [dc1]
 rtr1
